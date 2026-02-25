@@ -1,5 +1,4 @@
-# User Onboarding Funnel Analysis
-### Data Analyst Portfolio Project | Dipanshi Dhiman | Jan 2026
+# User Onboarding Funnel Analysis 
 
 > *Identifying conversion bottlenecks across a 6-stage onboarding journey to improve activation rates, reduce drop-off, and drive measurable business growth.*
 
@@ -145,40 +144,6 @@ All preparation was performed in SQL using a **production-style staging workflow
 | Timestamp conversion | Converted all fields to `DATETIME` | Precise time-to-conversion measurement |
 | Null handling | Flagged and resolved missing stage timestamps | No gaps in funnel progression |
 | Outlier removal | Removed time-to-conversion > 720 hours | Eliminated statistical skew |
-
-### Key SQL Patterns
-
-```sql
--- Deduplication using window functions
-WITH deduped AS (
-  SELECT *,
-    ROW_NUMBER() OVER (
-      PARTITION BY user_id, event_type
-      ORDER BY event_timestamp
-    ) AS rn
-  FROM user_events
-)
-SELECT * FROM deduped WHERE rn = 1;
-
-
--- Stage-by-stage conversion rates
-WITH stage_counts AS (
-  SELECT
-    stage_name,
-    stage_order,
-    COUNT(DISTINCT user_id) AS users
-  FROM funnel_stages
-  GROUP BY stage_name, stage_order
-)
-SELECT
-  stage_name,
-  users,
-  ROUND(
-    users * 100.0 / LAG(users) OVER (ORDER BY stage_order), 1
-  ) AS conversion_rate_pct
-FROM stage_counts
-ORDER BY stage_order;
-```
 
 ---
 
@@ -399,7 +364,7 @@ An interactive **Tableau dashboard** was built to enable stakeholder exploration
 - Parameter-driven filters for dynamic, on-demand analysis
 - KPI summary cards for executive reporting
 
-🔗 **[View Interactive Tableau Dashboard](#)** *(Add Tableau Public link)*
+🔗 **[View Interactive Tableau Dashboard](#)** *((https://github.com/dhimandipanshi/Onboarding_Funnel_Analysis/blob/main/funnel%20analysis.twb))*
 
 ---
 
