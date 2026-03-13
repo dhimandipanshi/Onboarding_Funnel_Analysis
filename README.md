@@ -4,21 +4,6 @@
 
 ---
 
-## Table of Contents
-
-1. [Project Background](#1-project-background)
-2. [Executive Summary](#2-executive-summary)
-3. [Dataset & Methodology](#3-dataset--methodology)
-4. [Data Cleaning & Preparation](#4-data-cleaning--preparation)
-5. [Funnel Performance Analysis](#5-funnel-performance-analysis)
-6. [Key Insights](#6-key-insights)
-7. [Business Recommendations](#7-business-recommendations)
-8. [Dashboard](#8-dashboard)
-9. [Limitations & Assumptions](#9-limitations--assumptions)
-10. [Tools & Technologies](#10-tools--technologies)
-
----
-
 ## 1. Project Background
 
 ### Business Context
@@ -283,56 +268,6 @@ Adding more users to a leaking funnel accelerates losses, not gains. The data ma
 
 ---
 
-### P1 — Fix the Post-KYC Experience 🔴
-
-**Expected uplift: +8–12% overall conversion** *(based on funnel modeling)*
-
-- Implement a **guided activation flow** triggered immediately after KYC approval
-- Add in-app nudges, progress indicators, and first-transaction incentives (e.g., zero-fee first transaction)
-- Set up **automated re-engagement sequences** for KYC-approved users inactive for 48+ hours
-- Reduce cognitive load between KYC completion and transaction initiation
-
----
-
-### P2 — Audit iOS Product Experience 🟠
-
-**Expected uplift: +3–5% iOS conversion** *(directional estimate)*
-
-- Conduct a full UX audit of iOS onboarding and transaction flow
-- Review crash logs, error events, and drop-off timestamps specific to iOS users
-- A/B test a simplified transaction flow on iOS vs. current experience
-- Benchmark iOS performance against Android at each funnel sub-stage
-
----
-
-### P3 — Reallocate Acquisition Spend 🟠
-
-**Expected uplift: +5–8% channel quality improvement** *(directional estimate)*
-
-- Shift budget from social (38% conversion) toward referral program investment (72% conversion)
-- Introduce tiered referral incentives to amplify the highest-converting channel
-- Pause or restructure underperforming paid social campaigns
-- Set minimum conversion rate thresholds for continued paid channel investment
-
----
-
-### P4 — Re-Engage KYC-Approved Inactive Users 🟡
-
-- Build a targeted re-engagement campaign for the ~3,000 lost post-KYC users
-- Segment by device and channel for personalized messaging
-- Test incentive-based reactivation — first transaction bonus or fee waiver
-
----
-
-### P5 — Build Ongoing Funnel Monitoring 🟡
-
-- Implement weekly automated funnel health reporting across all 10+ KPIs
-- Set conversion rate alert thresholds for each stage
-- Enable self-serve Tableau dashboard access for product and growth teams
-- Schedule monthly funnel review with stakeholders
-
----
-
 ### Expected Cumulative Impact
 
 ```
@@ -364,7 +299,7 @@ An interactive **Tableau dashboard** was built to enable stakeholder exploration
 - Parameter-driven filters for dynamic, on-demand analysis
 - KPI summary cards for executive reporting
 
-🔗 **[View Interactive Tableau Dashboard](#)** *((https://github.com/dhimandipanshi/Onboarding_Funnel_Analysis/blob/main/funnel%20analysis.twb))*
+🔗 **[View Interactive Tableau Dashboard](#)** *(Screenshot.png)*
 
 ---
 
@@ -390,23 +325,6 @@ An interactive **Tableau dashboard** was built to enable stakeholder exploration
 | **SQL (MySQL)** | Data cleaning, EDA, funnel metrics, window functions, CTEs |
 | **Tableau** | Interactive dashboard, funnel visualization, stakeholder reporting |
 | **Git & GitHub** | Version control and portfolio publishing |
-
----
-
-## Project Structure
-
-```
-Funnel_Analysis/
-│
-├── sql/
-│   ├── data_cleaning.sql       # Staging, deduplication, normalization
-│   └── eda.sql                 # Funnel metrics, conversion rates, segmentation
-│
-├── dashboard/
-│   └── funnel_dashboard.twbx   # Tableau workbook
-│
-└── README.md                   # Project report (this file)
-```
 
 ---
 
