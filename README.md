@@ -299,7 +299,7 @@ An interactive **Tableau dashboard** was built to enable stakeholder exploration
 - Parameter-driven filters for dynamic, on-demand analysis
 - KPI summary cards for executive reporting
 
-🔗 **[View Interactive Tableau Dashboard](#)** *(Screenshot.png)*
+![Dashboard Screenshot](Screenshot.png)
 
 ---
 
