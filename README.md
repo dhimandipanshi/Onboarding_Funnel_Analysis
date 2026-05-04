@@ -1,4 +1,4 @@
-# 📊 Activation Funnel Optimization Analysis (Fintech SaaS)
+# 📊 Activation Funnel Optimization Analysis 
 
 *Improving onboarding-to-transaction conversion through data-driven funnel insights*
 
