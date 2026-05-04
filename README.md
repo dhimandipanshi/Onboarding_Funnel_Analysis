@@ -1,4 +1,4 @@
-# 📊 Activation Funnel Optimization Analysis 
+# 📊 Activation Funnel Optimization Analysis at Nexora
 
 *Improving onboarding-to-transaction conversion through data-driven funnel insights*
 
@@ -6,18 +6,18 @@
 
 ## 🚀 Executive Summary
 
-User activation has plateaued at ~40% despite stable acquisition, indicating inefficiencies within the onboarding funnel. To identify root causes, I analyzed **1M+ event records across 12,000+ users** using SQL and built a Tableau dashboard to track progression from **Signup → First Transaction**.
+At Nexora, user activation has plateaued at ~40% despite stable acquisition, indicating inefficiencies within the onboarding funnel. To identify root causes, I analyzed 1M+ event records across 12,000+ users using SQL and built a Tableau dashboard to track progression from Signup → First Transaction.
 
-The analysis revealed that the **largest revenue opportunity lies in improving post-KYC conversion**, where over **25% of verified users drop off before completing their first transaction**. Additional inefficiencies were identified in **iOS performance** and **low-quality paid acquisition channels**.
+The analysis revealed that the largest revenue opportunity lies in improving post-KYC conversion, where over 25% of verified users drop off before completing their first transaction. Additional inefficiencies were identified in iOS performance and low-quality paid acquisition channels.
 
 To improve conversion and revenue without increasing acquisition spend, the following optimizations are recommended:
 
-- Enhancing post-KYC user experience with clearer guidance and nudges  
-- Implementing reminder campaigns (email/push) for high-intent users  
-- Reallocating spend toward high-converting referral channels  
-- Optimizing iOS onboarding experience through UX improvements  
+Enhancing post-KYC user experience with clearer guidance and nudges
+Implementing reminder campaigns (email/push) for high-intent users
+Reallocating spend toward high-converting referral channels
+Optimizing iOS onboarding experience through UX improvements
 
-📈 These improvements are expected to increase overall conversion to **52–58%**, unlocking significant incremental revenue.
+📈 These improvements are expected to increase overall conversion to 52–58%, unlocking significant incremental revenue.
 
 ---
 
