@@ -63,20 +63,20 @@ Where are users dropping off in the onboarding funnel, and how can product and g
 
 Since the highest revenue impact comes from improving **post-KYC conversion and user quality**, the following actions are recommended:
 
-# 1. Improve Post-KYC Experience
+### 1. Improve Post-KYC Experience
 - Add clear next-step guidance after KYC approval  
 - Introduce progress indicators and frictionless transaction flow  
 - Reinforce value proposition before first transaction  
 
-# 2. Re-engage High-Intent Users
+### 2. Re-engage High-Intent Users
 - Trigger email and push notifications for KYC-approved inactive users  
 - Use urgency-based messaging to drive activation  
 
-# 3. Optimize iOS Experience
+### 3. Optimize iOS Experience
 - Conduct UX audit to identify friction points  
 - Run A/B tests on onboarding and transaction flows  
 
-# 4. Rebalance Acquisition Strategy
+### 4. Rebalance Acquisition Strategy
 - Shift budget from paid channels to referral programs  
 - Incentivize high-quality user acquisition  
 
