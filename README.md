@@ -1,4 +1,4 @@
-# 📊 User Activation & Onboarding Funnel
+# 📊 Onboarding-Conversion-Optimization
 
 *Improving onboarding-to-transaction conversion through data-driven funnel insights*
 
