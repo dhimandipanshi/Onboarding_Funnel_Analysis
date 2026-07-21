@@ -1,4 +1,4 @@
-# 📊 Activation Funnel Optimization Analysis at Nexora
+# 📊 User Activation & Onboarding Funnel
 
 *Improving onboarding-to-transaction conversion through data-driven funnel insights*
 
