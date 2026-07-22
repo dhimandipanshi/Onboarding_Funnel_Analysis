@@ -28,7 +28,7 @@ Despite stable user acquisition, only ~40% of users complete onboarding and perf
 **Core Question:**  
 Where are users dropping off in the onboarding funnel, and how can product and growth teams improve conversion at the highest-impact stages?
 
-![Flowchart](2.png)
+![Flowchart](Dashboard/2.png)
 ---
 
 ## 🔍 Methodology
